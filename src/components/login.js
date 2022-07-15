@@ -12,7 +12,7 @@ function Login(){
                 username:username,
                 password:password,
             },
-            withCredentials:true,
+            
             url: "https://authenticationb.herokuapp.com/login"
         }).then((res)=>{
             if(res.data.message){

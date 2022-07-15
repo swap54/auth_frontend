@@ -15,7 +15,7 @@ function Register(){
                 username:username,
                 password:password,
             },
-            withCredentials:true,
+            
             url: "https://authenticationb.herokuapp.com/register"
         }).then((res)=>{
             if(res.data.message){
