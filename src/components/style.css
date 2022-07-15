@@ -1,0 +1,26 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    height: fit-content;
+    border: 1px solid black;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border-radius: 10px;
+}
+form label{
+    font-size: 40px;
+    font-weight: 700;
+}
+form input{
+    margin: 10px 5px 0px 5px;
+    height: 20px;
+}
+form button{
+    width: 20em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
