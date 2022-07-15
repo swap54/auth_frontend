@@ -8,9 +8,7 @@ function Register(){
     const [username,setUsername] = useState("");
     const [password,setPassword] = useState("");
     const handleRegister = (e) =>{
-        // Axios.post("http://localhost:3001/register",{username:username,password:password}).then((response)=>{
-        //     alert(response.data);
-        // })
+        
         Axios({
             method:"POST",
             data:{
